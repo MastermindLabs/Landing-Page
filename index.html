@@ -70,7 +70,7 @@
   </hgroup>
   <div class="bar" data-spy="affix" data-offset-top="375">
     <div class="container" id="platform-nav">
-      <a href="https://create.extracty.com/edit?url=http://news.ycombinator.com"
+      <a onclick="openPage()"
          class="btn extracty continue-datasource"
          style="display: block;">Continue</a>
       <span class="enter-datasource">Enter a datasource to get started.
@@ -192,6 +192,12 @@
     </div>
   </div>
 </footer>
+<script>
+
+function openPage() {
+  window.location.href = "https://create.extracty.com/edit?url=" + document.querySelector('.datasource-input').value
+}
+</script>
 
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
