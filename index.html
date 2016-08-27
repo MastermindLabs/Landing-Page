@@ -75,7 +75,7 @@
          class="btn extracty continue-datasource"
          style="display: block;">Continue</a>
       <span class="enter-datasource">Enter a datasource to get started.
-        <input class="datasource-input" value="http://news.ycombinator.com" />
+        <input class="datasource-input" placeholder="http://news.ycombinator.com" />
       </span>
     </div>
   </div>
@@ -202,7 +202,7 @@
 <script>
 
 function openPage() {
-  window.location.href = "https://app.extracty.com/edit?url=" + document.querySelector('.datasource-input').value
+  window.location.href = "https://app.extracty.com/edit?url=" + (document.querySelector('.datasource-input').value || 'http://news.ycombinator.com')
 }
 </script>
 
