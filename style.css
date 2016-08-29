@@ -280,6 +280,7 @@ code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  position: relative;
 }
 
 .container:before,.container:after {
@@ -307,6 +308,31 @@ code {
   .container {
     width: 1130px;
   }
+}
+
+.continueWithGithub {
+  color: #dff0f9;
+  font-weight: 600;
+  line-height: 30px;
+  position: absolute;
+  right: 33px;
+  top: 23px;
+  border: 1px solid #afd1e4;
+  padding: 3px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: #afd1e4;
+  -webkit-transition: border-color 400ms linear;
+  -moz-transition: border-color 400ms linear;
+  -o-transition: border-color 400ms linear;
+  -ms-transition: border-color 400ms linear;
+  transition: border-color 400ms linear;
+}
+
+.continueWithGithub:hover {
+  color: white;
+  border-color: white;
+  cursor: pointer;
 }
 
 input[type="search"] {
