@@ -316,7 +316,7 @@ code {
   line-height: 30px;
   position: absolute;
   right: 33px;
-  top: 23px;
+  top: 62px;
   border: 1px solid #afd1e4;
   padding: 3px 8px;
   border-radius: 5px;
@@ -1040,10 +1040,10 @@ body {
 }
 
 .navbar.navbar-extracty .navbar-brand .extracty-logo {
-  background: transparent no-repeat center top url("/img/logo.png");
-  background-size: 92px;
-  width: 92px;
-  height: 22px;
+  background: transparent no-repeat center top url(/img/logo.png);
+  background-size: 141px;
+  width: 152px;
+  height: 70px;
   opacity: .9;
   transition: opacity .2s;
 }
